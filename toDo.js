@@ -1,6 +1,11 @@
 let myForm = document.getElementById("myForm")
 let myField = document.getElementById("myField")
 let myList = document.getElementById("myList")
+function setFocus() {
+    myField.focus()
+}
+setFocus()
+
 myForm.addEventListener("submit", 
 (e) => 
 {
