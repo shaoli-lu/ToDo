@@ -1,8 +1,8 @@
 @keyframes move {
     0% {left: 0%}
-    25% {left: 25%}
-    50% {left: 50%}
-    75% {left: 25%}
+    25% {left: 30%}
+    50% {left: 60%}
+    75% {left: 30%}
     95% {left: 0.1%}
     }
 
@@ -13,20 +13,19 @@
     animation-duration: 60s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-
+    color: orange;
 }
 
 @keyframes grow {
     from {font-size: 18px;}
-    to {font-size: 24px; color:orange}
+    to {font-size: 36px; color: orange;}
 }
 
 #grow {
     animation-name: grow;
-    animation-duration: 12s;
+    animation-duration: 60s;
     animation-fill-mode: forwards;
-   
-    
+        
 }
 .left {
     text-align: left;
