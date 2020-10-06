@@ -15,7 +15,7 @@ myForm.addEventListener("submit",
 })
 
 function createItem(x) {
-    let myHTML = `<li><button onclick="deleteItem(this)">Delete</button> ${x}</li>`
+    let myHTML = `<li><button style ="color: red; padding: 5px 10px; margin: 1px; " onclick="deleteItem(this)">Delete</button> ${x}</li>`
     if (myField.value !="") myList.insertAdjacentHTML("beforeend", myHTML)
     myField.value=""
     myField.focus()
